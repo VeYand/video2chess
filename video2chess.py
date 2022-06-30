@@ -241,7 +241,7 @@ def run(size=1024, col=128, fps=20, remove_background=False, black_cell_color = 
         print('\rConverting frames to a chessboard...', end='')
         last_frame = get_frames(video_path=video_path, remove_background=remove_background, size=size, col=col, colors=colors, fps=fps)
         time.sleep(7)
-        print('\rVideo_assembly...', end='')
+        print('\rVideo assembly...', end='')
         make_video(last_frame=last_frame, fps=fps, size=size)
         print('\rCompleted successfully!')
     except Exception:
