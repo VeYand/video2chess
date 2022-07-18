@@ -1,0 +1,5 @@
+art
+moviepy
+rembg
+Pillow
+opencv-python
